@@ -1,5 +1,4 @@
 def binary_search(symbol, array)
-  p array
   if array[array.length/2] == symbol
     index = array.length/2
     return index
